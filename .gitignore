@@ -1,0 +1,76 @@
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# Diagnostic reports
+report.*.json
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Dependency directories
+node_modules/
+bower_components/
+jspm_packages/
+web_modules/
+
+# Build and Coverage directories
+lib-cov/
+coverage/
+.nyc_output/
+dist/
+build/
+.next/
+.nuxt/
+.cache/
+.parcel-cache/
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Optional caches
+.npm/
+.eslintcache/
+.stylelintcache/
+.rpt2_cache/
+.rts2_cache_*/
+
+# REPL history
+.node_repl_history
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn Integrity files
+.yarn-integrity
+.yarn/
+.pnp.*
+
+# VSCode and other IDE-specific files
+.vscode/
+.idea/
+.DS_Store
+
+# Serverless directories
+.serverless/
+
+# Miscellaneous
+.docusaurus/
+.fusebox/
+.dynamodb/
+.tern-port
+.vscode-test/
